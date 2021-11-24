@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;900&family=Economica&family=Outfit:wght@200&family=Raleway:wght@100&family=Roboto+Slab:wght@300&display=swap');
+$base-color: #F7F7F7;
+$color: rgba(black,
+0.88);
+$color-titulos: red;
+$font: 'Roboto Slab',
+serif;
+$color-oscuro: #000000;
+body {
+    background-color: $base-color;
+    color: $color;
+    font-weight: normal;
+    font-family: $font;
+}
+
+h4,
+h6 {
+    font-weight: bold;
+    color: $color-titulos;
+}
+
+p {
+    color: $color-oscuro;
+    font-size: 18px;
+}
